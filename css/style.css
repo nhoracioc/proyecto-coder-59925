@@ -23,7 +23,7 @@ header nav ul{
 }
 
 header nav ul li{
-    /*display: inline-block;*/
+   
     margin: 5px;
 }
 
@@ -86,7 +86,6 @@ h1{
 }
 
 .bienvenidos div h2{
-    /*color: crimson;*/
     font-size: 40px;
 }
 
@@ -113,7 +112,7 @@ h1{
     height: 320px;
     text-align: center;
     margin: 20px;
-    /*display: inline-block;*/
+    
 }
 
 .productos div img{
@@ -135,7 +134,7 @@ h1{
 
 .productos h2{
     background-color: black;
-    /*color: white;*/
+   
     color: green;
     padding: 20px;
     text-align: center;
@@ -164,7 +163,7 @@ footer div a img{
 }
 
 .grilla-productos{
-    /*border: solid 4px green;*/
+    
     width: 100%;
     margin-top: 50px;
     display: grid;
@@ -175,11 +174,11 @@ footer div a img{
 }
 
 .grilla-productos div img{
-    /*border-style: solid;*/
+   
     width: 100%;
     height: 100%;
     object-fit: none;
-    /*object-fit: cover;*/
+   
 }
 
 .grilla-items {
@@ -212,7 +211,7 @@ footer div a img{
 
     .grilla-items{
         grid-column:span 1;
-        /*grid-row: span 1;*/
+
     }
 
     .imgpuerta{
