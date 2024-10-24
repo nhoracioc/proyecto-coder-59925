@@ -247,6 +247,10 @@ footer div a img{
     .bienvenidos div{
         width: 95%;
     }
+
+    .bienvenidos-envios div{
+        width: 95%;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -265,10 +269,189 @@ footer div a img{
     
     }
 
+    .bienvenidos-envios {
+        flex-direction: column;
+    }
+    .bienvenidos-envios img{
+        
+        width: 40%;
+        height: 40%;
+    }
+
+    .bienvenidos-envios div {
+        width: 80%;
+        padding: 5px;
+    
+    }
+
     .fixed a img{
         width: 30px;
         
     }
 
+}
 
+/*! envios */
+
+.bienvenidos-envios {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.bienvenidos-envios div {
+    width: 50%;
+
+}
+
+.bienvenidos-envios div h2{
+    font-size: 40px;
+}
+
+.bienvenidos-envios div p{
+    
+    font-size: 15px;
+}
+
+.bienvenidos-envios img{
+    width: 350px;
+    height: 400px;
+}
+
+
+/*! contacto */
+.contacto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.contacto h2{
+    font-size: 50px;
+    color: black;
+    display:inline;
+    padding: 20;
+}
+
+
+
+.contacto-formulario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.contacto-formulario .contacto-formulario-datos{
+   
+    border: 1px solid gray;
+    width: 350px;
+    height: 420px;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.contacto-formulario .contacto-formulario-datos div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.contacto-formulario .contacto-formulario-datos div .contacto-label{
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+    
+}
+
+.contacto-formulario .contacto-formulario-datos div .contacto-memo{
+        width: 100% ;
+        margin-bottom: 10px;
+        padding: 10px;
+        
+        border-radius: 4px
+
+}
+
+/* Sucursales */
+
+
+.sucursal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.sucursal div {
+    width: 50%;
+
+}
+
+.sucursal div h2{
+    font-size: 40px;
+    display:inline;
+}
+
+.sucursal div p{
+    
+    font-size: 15px;
+    
+}
+
+.sucursal img{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.sucursales .sucursales-tarjetas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sucursales .sucursales-tarjetas div{
+    border: 1px solid gray;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.sucursales div img{
+    width: 220px;
+    height: 220px;
+    padding-top: 30px;
+}
+
+.sucursales div h3{
+    font-size: 22px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.sucursales div a{
+    background-color:black ;
+    color: white;
+    padding: 5px;
+    margin: 20px;
+}
+
+.sucursales h2{
+    background-color: black;
+   
+    color: green;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
 }
