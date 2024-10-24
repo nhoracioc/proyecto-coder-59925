@@ -1,0 +1,43 @@
+header{
+    background-color: black;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1{
+        color: green;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        h1{
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color: green;
+        }        
+    }
+
+    nav{
+        ul{
+            list-style:none;
+            display: flex;
+            li{
+               
+                margin: 5px;
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+}
+
+ 
