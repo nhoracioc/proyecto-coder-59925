@@ -1,0 +1,41 @@
+header{
+    background-color: $color-principal;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1{
+        color: $color-secundario;
+    }
+
+    a{
+        text-decoration: none;
+        color: $color-principal;
+        h1{
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color: $color-secundario;
+        }        
+    }
+
+    nav{
+        ul{
+            list-style:none;
+            display: flex;
+            li{
+               
+                margin: 5px;
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+}

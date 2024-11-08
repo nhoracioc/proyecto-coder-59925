@@ -1,3 +1,28 @@
+.grilla-productos {
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 220px;
+  gap: 15px; }
+  .grilla-productos div img {
+    width: 100%;
+    height: 100%;
+    object-fit: none; }
+
+.grilla-items {
+  position: relative; }
+  .grilla-items h3 {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.496);
+    padding: 5px;
+    width: 100%; }
+
+.imgpuerta {
+  grid-row: span 2; }
+
 header {
   background-color: black;
   padding: 15px;
@@ -24,3 +49,110 @@ header {
       margin: 5px; }
       header nav ul li a {
         color: white; }
+
+footer div a img {
+  width: 50px;
+  height: 50px; }
+
+.contacto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px; }
+  .contacto h2 {
+    font-size: 50px;
+    color: black;
+    display: inline;
+    padding: 20; }
+
+.contacto-formulario {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+  .contacto-formulario .contacto-formulario-datos {
+    border: 1px solid gray;
+    width: 350px;
+    height: 420px;
+    text-align: center;
+    margin: 20px; }
+    .contacto-formulario .contacto-formulario-datos div {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px; }
+      .contacto-formulario .contacto-formulario-datos div .contacto-label {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px; }
+      .contacto-formulario .contacto-formulario-datos div .contacto-memo {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 4px; }
+
+.bienvenidos-envios {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px; }
+  .bienvenidos-envios div {
+    width: 50%; }
+    .bienvenidos-envios div h2 {
+      font-size: 40px; }
+    .bienvenidos-envios div p {
+      font-size: 15px; }
+  .bienvenidos-envios img {
+    width: 350px;
+    height: 400px; }
+
+.sucursal {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px; }
+  .sucursal div {
+    width: 50%; }
+    .sucursal div h2 {
+      font-size: 40px;
+      display: inline; }
+    .sucursal div p {
+      font-size: 15px; }
+  .sucursal img {
+    width: 400px;
+    height: 400px; }
+
+.sucursales .sucursales-tarjetas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+  .sucursales .sucursales-tarjetas div {
+    border: 1px solid gray;
+    width: 250px;
+    height: 450px;
+    text-align: center;
+    margin: 20px; }
+
+.sucursales div img {
+  width: 220px;
+  height: 220px;
+  padding-top: 30px; }
+
+.sucursales div h3 {
+  font-size: 22px;
+  margin: 10px;
+  padding: 20px; }
+
+.sucursales div a {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 20px; }
+
+.sucursales h2 {
+  background-color: black;
+  color: green;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase; }
